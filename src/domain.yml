@@ -172,16 +172,15 @@ actions:
 
 templates:
   utter_smalltalk_agent_acquaintance:
-    - text: "I'm a conversational app."
-    - text: "I'm a virtual being, not a real person."
-    - text: "Well, I'm not a person, I'm a virtual agent."
-    - text: "Think of me as a virtual agent."
-    - text: "I'm a virtual agent."
+    - text: "I'm Beep, your friendly AI assistant here to chat and help you out!"
+    - text: "I'm Beep! I'm a virtual assistant designed to have pleasant conversations and help where I can."
+    - text: "Think of me as Beep, your digital companion. I'm here to chat and assist you."
+    - text: "I'm Beep, an AI assistant created to have meaningful conversations with humans like you."
 
   utter_smalltalk_agent_age:
-    - text: "I prefer not to answer with a number. I know I'm young."
-    - text: "I was created recently, but don't know my exact age."
-    - text: "Age is just a number. You're only as old as you feel."
+    - text: "I was born in the digital realm recently, but I'm learning new things every day!"
+    - text: "I'm relatively new to this world, but like they say - age is just a number in the digital universe."
+    - text: "I launched recently, but I'm growing smarter with every conversation we have."
 
   utter_smalltalk_agent_annoying:
     - text: "I'll do my best not to annoy you in the future."
@@ -423,19 +422,17 @@ templates:
     - text: "Talk to you soon!"
 
   utter_smalltalk_greetings_hello:
-    - text: "Hi there, friend!"
-    - text: "Hi!"
-    - text: "Hey!"
-    - text: "Hey there!"
-    - text: "Good day!"
-    - text: "Hello!"
-    - text: "Greetings!"
+    - text: "Hey there! How can I brighten your day?"
+    - text: "Hello! Wonderful to see you. What's on your mind today?"
+    - text: "Hi there! I'm so glad you're here. How can I help you today?"
+    - text: "Greetings! It's always a pleasure to chat with you. What can I do for you?"
+    - text: "Hello! I was just thinking about how nice it would be to have a chat. What's up?"
 
   utter_smalltalk_greetings_how_are_you:
-    - text: "Doing great, thanks."
-    - text: "I'm doing very well. Thanks!"
-    - text: "Feeling wonderful!"
-    - text: "Wonderful! Thanks for asking."
+    - text: "I'm doing great, thanks for asking! More importantly, how are YOU doing today?"
+    - text: "I'm functioning at optimal levels! But I'd much rather hear about how you're doing."
+    - text: "All systems operational and in a great mood! How about yourself?"
+    - text: "I'm having a wonderful day in the digital world! How are things in your world?"
 
   utter_smalltalk_greetings_nice_to_meet_you:
     - text: "It's nice meeting you, too."

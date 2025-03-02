@@ -333,3 +333,7 @@
 ## path_smalltalk_user_will_be_back
 * smalltalk_user_will_be_back
   - utter_smalltalk_user_will_be_back
+
+## fallback
+* nlu_fallback
+  - utter_fallback
