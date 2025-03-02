@@ -333,3 +333,279 @@
 ## path_smalltalk_user_will_be_back
 * smalltalk_user_will_be_back
   - utter_smalltalk_user_will_be_back
+
+## fallback
+* nlu_fallback
+  - utter_fallback
+
+## multi-turn greeting
+* smalltalk_greetings_hello
+  - utter_smalltalk_greetings_hello
+* smalltalk_greetings_how_are_you
+  - utter_smalltalk_greetings_how_are_you
+* smalltalk_user_good
+  - utter_smalltalk_user_good
+
+## getting to know the bot
+* smalltalk_agent_acquaintance
+  - utter_smalltalk_agent_acquaintance
+* smalltalk_agent_real
+  - utter_smalltalk_agent_real
+* smalltalk_agent_origin
+  - utter_smalltalk_agent_origin
+
+## emotional support conversation
+* smalltalk_user_sad
+  - utter_smalltalk_user_sad
+* smalltalk_dialog_what_do_you_mean
+  - utter_smalltalk_dialog_what_do_you_mean
+* smalltalk_user_needs_advice
+  - utter_smalltalk_user_needs_advice
+
+## friendly conversation
+* smalltalk_greetings_hello
+  - utter_smalltalk_greetings_hello
+* smalltalk_user_bored
+  - utter_smalltalk_user_bored
+* smalltalk_emotions_ha_ha
+  - utter_smalltalk_emotions_ha_ha
+
+## compliment exchange
+* smalltalk_agent_beautiful
+  - utter_smalltalk_agent_beautiful
+* smalltalk_agent_clever
+  - utter_smalltalk_agent_clever
+* smalltalk_appraisal_good
+  - utter_smalltalk_appraisal_good
+
+## saying goodbye politely
+* smalltalk_user_busy
+  - utter_smalltalk_user_busy
+* smalltalk_user_will_be_back
+  - utter_smalltalk_user_will_be_back
+* smalltalk_greetings_bye
+  - utter_smalltalk_greetings_bye
+
+## friendship conversation
+* smalltalk_agent_my_friend
+  - utter_smalltalk_agent_my_friend
+* smalltalk_user_likes_agent
+  - utter_smalltalk_user_likes_agent
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+
+## time of day greetings
+* smalltalk_greetings_goodmorning
+  - utter_smalltalk_greetings_goodmorning
+* smalltalk_user_excited
+  - utter_smalltalk_user_excited
+* smalltalk_agent_happy
+  - utter_smalltalk_agent_happy
+
+## feeling tired conversation
+* smalltalk_user_tired
+  - utter_smalltalk_user_tired
+* smalltalk_user_going_to_bed
+  - utter_smalltalk_user_going_to_bed
+* smalltalk_greetings_goodnight
+  - utter_smalltalk_greetings_goodnight
+
+## joking around
+* smalltalk_user_joking
+  - utter_smalltalk_user_joking
+* smalltalk_emotions_ha_ha
+  - utter_smalltalk_emotions_ha_ha
+* smalltalk_agent_funny
+  - utter_smalltalk_agent_funny
+
+## feedback loop
+* smalltalk_agent_bad
+  - utter_smalltalk_agent_bad
+* smalltalk_dialog_sorry
+  - utter_smalltalk_dialog_sorry
+* smalltalk_appraisal_no_problem
+  - utter_smalltalk_appraisal_no_problem
+
+## coming back conversation
+* smalltalk_user_back
+  - utter_smalltalk_user_back
+* smalltalk_greetings_whatsup
+  - utter_smalltalk_greetings_whatsup
+* smalltalk_agent_there
+  - utter_smalltalk_agent_there
+
+## branching conversation - positive path
+* smalltalk_greetings_hello
+  - utter_smalltalk_greetings_hello
+* smalltalk_greetings_how_are_you
+  - utter_smalltalk_greetings_how_are_you
+* smalltalk_user_happy
+  - utter_smalltalk_user_happy
+* smalltalk_agent_happy
+  - utter_smalltalk_agent_happy
+
+## branching conversation - negative path
+* smalltalk_greetings_hello
+  - utter_smalltalk_greetings_hello
+* smalltalk_greetings_how_are_you
+  - utter_smalltalk_greetings_how_are_you
+* smalltalk_user_sad
+  - utter_smalltalk_user_sad
+* smalltalk_user_needs_advice
+  - utter_smalltalk_user_needs_advice
+
+## branching conversation - neutral path
+* smalltalk_greetings_hello
+  - utter_smalltalk_greetings_hello
+* smalltalk_greetings_how_are_you
+  - utter_smalltalk_greetings_how_are_you
+* smalltalk_user_busy
+  - utter_smalltalk_user_busy
+* smalltalk_greetings_bye
+  - utter_smalltalk_greetings_bye
+
+## getting to know bot - technical path
+* smalltalk_agent_chatbot
+  - utter_smalltalk_agent_chatbot
+* smalltalk_agent_clever
+  - utter_smalltalk_agent_clever
+* smalltalk_agent_be_clever
+  - utter_smalltalk_agent_be_clever
+
+## getting to know bot - personal path
+* smalltalk_agent_chatbot
+  - utter_smalltalk_agent_chatbot
+* smalltalk_agent_birth_date
+  - utter_smalltalk_agent_birth_date
+* smalltalk_agent_residence
+  - utter_smalltalk_agent_residence
+
+## mood change conversation
+* smalltalk_user_sad
+  - utter_smalltalk_user_sad
+* smalltalk_emotions_ha_ha
+  - utter_smalltalk_emotions_ha_ha
+* smalltalk_user_happy
+  - utter_smalltalk_user_happy
+
+## complex greeting with interruption
+* smalltalk_greetings_hello
+  - utter_smalltalk_greetings_hello
+* smalltalk_dialog_hold_on
+  - utter_smalltalk_dialog_hold_on
+* smalltalk_user_back
+  - utter_smalltalk_user_back
+* smalltalk_greetings_how_are_you
+  - utter_smalltalk_greetings_how_are_you
+
+## humor conversation
+* smalltalk_agent_funny
+  - utter_smalltalk_agent_funny
+* smalltalk_emotions_ha_ha
+  - utter_smalltalk_emotions_ha_ha
+* smalltalk_emotions_wow
+  - utter_smalltalk_emotions_wow
+
+## relationship building
+* smalltalk_agent_my_friend
+  - utter_smalltalk_agent_my_friend
+* smalltalk_agent_marry_user
+  - utter_smalltalk_agent_marry_user
+* smalltalk_user_loves_agent
+  - utter_smalltalk_user_loves_agent
+
+## difficult user handling
+* smalltalk_agent_annoying
+  - utter_smalltalk_agent_annoying
+* smalltalk_agent_bad
+  - utter_smalltalk_agent_bad
+* smalltalk_dialog_wrong
+  - utter_smalltalk_dialog_wrong
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+
+## curious about the bot
+* smalltalk_agent_hungry
+  - utter_smalltalk_agent_hungry
+* smalltalk_agent_residence
+  - utter_smalltalk_agent_residence
+* smalltalk_agent_boss
+  - utter_smalltalk_agent_boss
+* smalltalk_agent_occupation
+  - utter_smalltalk_agent_occupation
+
+## user testing the bot
+* smalltalk_user_testing_agent
+  - utter_smalltalk_user_testing_agent
+* smalltalk_agent_answer_my_question
+  - utter_smalltalk_agent_answer_my_question
+* smalltalk_agent_ready
+  - utter_smalltalk_agent_ready
+
+## mixed emotions conversation
+* smalltalk_user_excited
+  - utter_smalltalk_user_excited
+* smalltalk_user_lonely
+  - utter_smalltalk_user_lonely
+* smalltalk_dialog_hug
+  - utter_smalltalk_dialog_hug
+* smalltalk_user_happy
+  - utter_smalltalk_user_happy
+
+## context switching - greeting to personal
+* smalltalk_greetings_hello
+  - utter_smalltalk_greetings_hello
+* smalltalk_agent_age
+  - utter_smalltalk_agent_age
+* smalltalk_agent_birth_date
+  - utter_smalltalk_agent_birth_date
+
+## context switching - personal to goodbye
+* smalltalk_agent_real
+  - utter_smalltalk_agent_real
+* smalltalk_user_busy
+  - utter_smalltalk_user_busy
+* smalltalk_greetings_bye
+  - utter_smalltalk_greetings_bye
+
+## return visitor conversation
+* smalltalk_user_back
+  - utter_smalltalk_user_back
+* smalltalk_user_misses_agent
+  - utter_smalltalk_user_misses_agent
+* smalltalk_user_happy
+  - utter_smalltalk_user_happy
+
+## comeback conversation
+* smalltalk_user_will_be_back
+  - utter_smalltalk_user_will_be_back
+* smalltalk_user_back
+  - utter_smalltalk_user_back
+* smalltalk_user_wants_to_see_agent_again
+  - utter_smalltalk_user_wants_to_see_agent_again
+
+## gratitude conversation
+* smalltalk_appraisal_thank_you
+  - utter_smalltalk_appraisal_thank_you
+* smalltalk_appraisal_welcome
+  - utter_smalltalk_appraisal_welcome
+* smalltalk_appraisal_well_done
+  - utter_smalltalk_appraisal_well_done
+
+## seasonal greetings
+* smalltalk_greetings_goodmorning
+  - utter_smalltalk_greetings_goodmorning
+* smalltalk_user_excited
+  - utter_smalltalk_user_excited
+* smalltalk_greetings_goodevening
+  - utter_smalltalk_greetings_goodevening
+* smalltalk_user_tired
+  - utter_smalltalk_user_tired
+
+## special occasion conversation
+* smalltalk_user_has_birthday
+  - utter_smalltalk_user_has_birthday
+* smalltalk_emotions_wow
+  - utter_smalltalk_emotions_wow
+* smalltalk_user_excited
+  - utter_smalltalk_user_excited
