@@ -83,6 +83,7 @@ intents:
 - smalltalk_user_wants_to_see_agent_again
 - smalltalk_user_wants_to_talk
 - smalltalk_user_will_be_back
+- nlu_fallback
 
 actions:
 - utter_smalltalk_agent_acquaintance
@@ -601,3 +602,9 @@ templates:
     - text: "I'll be waiting."
     - text: "Okay. You know where to find me."
     - text: "All right. I'll be here."
+
+  utter_fallback:
+    - text: "I'm not quite sure I understand. Could you rephrase that?"
+    - text: "Hmm, I didn't quite catch that. Can you say it differently?"
+    - text: "I'm still learning! Could you try asking that another way?"
+    - text: "I'm sorry, but I didn't understand that. Could you try again with different words?"

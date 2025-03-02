@@ -10,6 +10,22 @@ A conversational AI chatbot built with Rasa that specializes in small talk inter
 - Natural, engaging responses with personality
 - Fallback handling for out-of-scope queries
 - Modern NLU pipeline with DIET classifier
+- Advanced conversation flows that simulate real human interactions
+- Branching dialogue paths based on user mood and responses
+- Memory of context across conversation turns
+
+## Conversation Capabilities
+
+The chatbot can handle various conversation scenarios including:
+
+- Multi-turn greetings and introductions
+- Emotional support conversations
+- Context switching between topics
+- Handling different user moods (happy, sad, busy)
+- Relationship building with the user
+- Humor and personality expressions
+- Graceful handling of interruptions
+- Memory of returning visitors
 
 ## Setup and Installation
 
@@ -59,7 +75,7 @@ rasa run --enable-api
 - `src/config.yml`: NLU and policy configuration
 - `src/domain.yml`: Bot domain with intents, actions, and responses
 - `src/data/nlu.md`: Training data for NLU
-- `src/data/stories.md`: Conversation flows
+- `src/data/stories.md`: Conversation flows including multi-turn and branching dialogues
 
 ## Extending the Bot
 
@@ -71,10 +87,24 @@ rasa run --enable-api
 4. Add a story to `data/stories.md`
 5. Retrain the model
 
+### Creating Complex Conversations
+
+To create more realistic conversations, combine multiple intents in a single story with a logical flow, for example:
+
+```markdown
+## example_conversation_flow
+* greeting_intent
+  - greeting_response
+* mood_intent
+  - mood_response
+* follow_up_intent
+  - follow_up_response
+```
+
 ## License
 
 This project is open source.
 
 ## Acknowledgements
 
-- [Rasa](https://rasa.com/) for the powerful conversational AI framework
+- [Rasa](https://rasa.com/) for the powerful conversational AI framework 
